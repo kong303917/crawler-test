@@ -59,8 +59,8 @@ Promise.all(articlePromiseArray).then(function onFulfilled(pages) {
     // mailContent需要由读者自行配制，这里对mailContent的赋值已经删去。
 
     var mailOptions = {
-        from: '', // sender address
-        to: '', // list of receivers
+        from: 'kongcheng_303917@sina.com', // sender address
+        to: 'zhoukongcheng@jumore.com', // list of receivers
         subject: 'Crawler-jianshu', // Subject line
         text: mailContent, // plaintext body
         html: '<b>' +  mailContent + '</b>' // html body
